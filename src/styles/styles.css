@@ -14,32 +14,51 @@
 .bus {
   width: 1300px;
   height: 450px;
-  overflow: visible;
-  background-color: yellow;
+  background-color: rgb(228, 241, 42);
   border-radius: 10%;
 }
 .front-glass {
-  width: 30%;
+  width: 25%;
   height: 50%;
+  margin: 0;
   background-color: rgb(58, 59, 47);
   border-bottom-right-radius: 30%;
 }
+.glass {
+  width: 5%;
+  height: 75%;
+  background-color: rgb(166, 199, 199);
+  margin-left: 95%;
+  border-bottom-left-radius: 70%;
+  border-top-left-radius: 70%;
+}
+
+.bus-window1 {
+  width: 100%;
+  height: 40%;
+  margin-top: 5%;
+  margin-left: 0;
+  background-color: rgb(166, 199, 199);
+  border: 2px solid black;
+  border-radius: 30%;
+}
 .front_wheel_carcass {
-  width: 15%;
-  height: 25%;
+  width: 10%;
+  height: 17%;
   background-color: rgb(155, 132, 83);
   border-top-left-radius: 60%;
   border-top-right-radius: 60%;
-  margin-left: 13%;
-  margin-top: 9%;
+  margin-left: 8%;
+  margin-top: 5.5%;
+  position: fixed;
 }
 .front_wheel {
   width: 90%;
-  height: 150%;
+  height: 130%;
   background-color: black;
   border-radius: 50%;
   margin-left: 5%;
-  padding-top: 10%;
+  padding-top: 9%;
   animation-name: wheel;
   animation-duration: 5s;
 }
@@ -104,11 +123,38 @@
   margin: 0;
   margin-left: 15px;
 }
-/* .circle6 {
-    width: 30%;
-    height: 30%;
-    background-color: black;
-    border-radius: 50%;
-    margin: 0;} */
-/* margin-left: 15%;
-    margin-bottom: 40px; */
+.door {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(228, 241, 42);
+  margin-top: 2%;
+  border: 3px solid black;
+  border-radius: 10% 10% 10% 10%;
+  justify-content: space-around;
+  position: relative;
+}
+.door-window1 {
+  width: 35%;
+  height: 85%;
+  background-color: rgb(166, 199, 199);
+  border-radius: 30%;
+  margin-top: 8%;
+  margin-left: 3%;
+  border: 2px solid black;
+}
+.md-line {
+  width: 5%;
+  height: 100%;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+.door-window2 {
+  width: 35%;
+  height: 85%;
+  background-color: rgb(166, 199, 199);
+  border-radius: 30%;
+  margin-top: 8%;
+  margin-left: 4%;
+  border: 2px solid black;
+}
